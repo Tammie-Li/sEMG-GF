@@ -1,0 +1,35 @@
+# some parameters setting
+exp:
+  classes: 6
+  channels: 8
+  epoch: 200
+  batchsize: 32
+
+model:
+  EMGNet: 
+    drop_out: 0.5
+    time_point: 9
+    N_t: 8
+    N_s: 16
+    is_model_type_deep_learning: True
+  SVM:
+    is_model_type_deep_learning: False
+  LDA:
+    is_model_type_deep_learning: False
+  RF:
+    is_model_type_deep_learning: False
+  KNN:
+    is_model_type_deep_learning: False
+  NaiveBayes:
+    is_model_type_deep_learning: False
+  OneDCNN:
+    is_model_type_deep_learning: True
+  TwoDCNN:
+    is_model_type_deep_learning: True
+  LSTM:
+    is_model_type_deep_learning: True
+  CNN_LSTM:
+    is_model_type_deep_learning: True
+
+
+
